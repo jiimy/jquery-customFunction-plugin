@@ -68,7 +68,7 @@ $(function () {
     var defaults = {
       delay: 1000, //다음 슬라이드로 넘어가는 딜레이
       fade_speed: 500, //다음 슬라이드 페이드인 속도
-      auto: true,
+      // auto: true,
       slide_type: "fade", // 슬라이드 넘어가는 효과, fade와 슬라이드
       mouse_over: "stop" // 마우스 오버시 슬라이드 중지하기
     };
@@ -94,19 +94,21 @@ $(function () {
 
     function interval() {
       interval_check = setInterval(function () {
-        image.eq(i).fadeOut(options.fade_speed);
+        // image.eq(i).fadeOut(options.fade_speed);
         i = i + 1 == count ? 0 : i + 1;
-        image.eq(i).fadeIn(options.fade_speed);
+        // image.eq(i).fadeIn(options.fade_speed);
+
+
       }, options.delay)
     };
 
     var mouseover = $(this).mouseover(function () {
+      //인터벌 자체 클리어
       clearInterval(interval_check);
-      // console.log(interval);
     });
 
     var mouseout = $(this).mouseout(function () {
-      // interval;
+      // 함수 실행
       interval();
       
     });
