@@ -1,5 +1,5 @@
 # jquery-custom-function
-javascript와 jquery
+
 
 사용자 정의 함수로 이미지 슬라이드 샘플과 탭메뉴. 
 
