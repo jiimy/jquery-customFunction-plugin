@@ -124,7 +124,7 @@ $(function () {
     }
   };
 })($);
-
+//http://dotweb.tistory.com/216
 //https://zetawiki.com/wiki/JQuery_%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8_%EB%A7%8C%EB%93%A4%EA%B8%B0_3_-_%EC%98%B5%EC%85%98_%EB%B0%9B%EA%B8%B0
 //http://offbyone.tistory.com/129?category=283347
 //https://learn.jquery.com/plugins/basic-plugin-creation/
